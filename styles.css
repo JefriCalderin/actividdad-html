@@ -1,0 +1,325 @@
+/* ===== GENERAL ===== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f9f4fb;
+}
+
+/* ===== HEADER ===== */
+header {
+    background-color: #e75480;
+    text-align: center;
+    padding: 20px 15px 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.Titulo {
+    margin: 0;
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+/* ===== NAVEGACION ===== */
+.opciones_principales {
+    margin-top: 12px;
+}
+
+.opciones_principales a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 0.95rem;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.opciones_principales a:hover {
+    background-color: white;
+    color: #e75480;
+}
+
+/* ===== INDEX - TARJETAS DE SERVICIOS ===== */
+#titulo_cuerpo {
+    text-align: center;
+    margin-top: 30px;
+    color: #5a005a;
+    font-size: 1.8rem;
+}
+
+.curpo {
+    padding: 20px;
+}
+
+#mensaje_cuerpo {
+    text-align: center;
+    color: #888;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.targeta {
+    background-color: white;
+    width: 220px;
+    padding: 30px 20px;
+    border: 1px solid #e8c9f5;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.targeta:hover {
+    box-shadow: 0 6px 18px rgba(231, 84, 128, 0.25);
+    transform: translateY(-4px);
+}
+
+.targeta h3 {
+    color: #c2185b;
+    margin-bottom: 10px;
+}
+
+.targeta ul {
+    list-style: none;
+    padding: 0;
+    margin: 4px 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* ===== ENCABEZADOS DE SECCION (compartido) ===== */
+#encabezado_quienes,
+#encabezado_servicios,
+#encabezado_productos,
+#encabezado_contactanos {
+    background-color: #f5d6f5;
+    text-align: center;
+    padding: 25px 20px;
+    border-bottom: 2px solid #dda0dd;
+}
+
+#encabezado_quienes h2,
+#encabezado_servicios h2,
+#encabezado_productos h2,
+#encabezado_contactanos h2 {
+    margin: 0;
+    color: #5a005a;
+    font-size: 1.5rem;
+}
+
+/* ===== QUIENES SOMOS ===== */
+#cuerpo_quienes {
+    padding: 30px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+#cuerpo_quienes h3 {
+    color: #c2185b;
+    margin-top: 25px;
+    font-size: 1.2rem;
+}
+
+#cuerpo_quienes p {
+    text-align: justify;
+    color: #444;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+/* ===== SERVICIOS ===== */
+#servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 20px;
+}
+
+.targeta_servicios {
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border: 1px solid #e8c9f5;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.targeta_servicios:hover {
+    box-shadow: 0 6px 18px rgba(231, 84, 128, 0.25);
+    transform: translateY(-4px);
+}
+
+.targeta_servicios h3 {
+    color: #c2185b;
+    margin-bottom: 8px;
+}
+
+.targeta_servicios p {
+    font-size: 0.88rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+.targeta_servicios ul {
+    list-style: none;
+    padding: 0;
+    margin: 4px 0;
+    font-size: 0.88rem;
+    color: #555;
+}
+
+/* ===== PRODUCTOS ===== */
+#productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 20px;
+}
+
+.producto {
+    background-color: white;
+    border: 1px solid #e8c9f5;
+    border-radius: 10px;
+    padding: 20px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.producto:hover {
+    box-shadow: 0 6px 18px rgba(231, 84, 128, 0.25);
+    transform: translateY(-4px);
+}
+
+.producto h2 {
+    color: #5a005a;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f0c0e0;
+    padding-bottom: 8px;
+}
+
+.producto h3 {
+    color: #c2185b;
+    font-size: 0.9rem;
+    margin: 12px 0 6px;
+}
+
+.producto img {
+    width: 100%;
+    max-width: 180px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid #e8c9f5;
+    transition: opacity 0.3s;
+}
+
+.producto img:hover {
+    opacity: 0.85;
+}
+
+/* ===== CONTACTANOS ===== */
+.contacto {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: white;
+}
+
+.ubicacion h3 {
+    color: #c2185b;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.ubicacion h4 {
+    color: #555;
+    font-weight: normal;
+    margin: 6px 0;
+    font-size: 0.95rem;
+}
+
+.ubicacion iframe {
+    width: 100%;
+    max-width: 550px;
+    margin-top: 18px;
+    border-radius: 8px;
+    border: 2px solid #e8c9f5;
+}
+
+#encabezado_contactanos {
+    padding: 30px 20px;
+}
+
+.titulo_contacto h2 {
+    color: #5a005a;
+    margin: 8px 0;
+}
+
+#contenido h2 {
+    font-size: 1rem;
+    color: #888;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+/* ===== FORMULARIO ===== */
+#formulario {
+    margin-top: 20px;
+}
+
+#formulario h1 {
+    color: #5a005a;
+    font-size: 1.4rem;
+    margin-bottom: 16px;
+}
+
+#formulario input {
+    display: block;
+    width: 260px;
+    padding: 10px 12px;
+    margin: 8px auto;
+    border: 1px solid #dda0dd;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#formulario input:focus {
+    border-color: #e75480;
+    box-shadow: 0 0 0 3px rgba(231, 84, 128, 0.15);
+}
+
+#formulario button {
+    margin-top: 12px;
+    padding: 10px 28px;
+    background-color: #e75480;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#formulario button:hover {
+    background-color: #c2185b;
+    transform: translateY(-2px);
+}
